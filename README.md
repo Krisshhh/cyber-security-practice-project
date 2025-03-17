@@ -21,8 +21,8 @@ This project is a secure contact form API built using Node.js, Express, and Mong
 ### Setup
 1. Clone the repository:
    ```sh
-   git clone https://github.com/yourusername/your-repo.git
-   cd your-repo
+   git clone https://github.com/Krisshhh/cyber-security-practice-project.git
+   cd cyber-security-practice-project
    ```
 2. Install dependencies:
    ```sh
