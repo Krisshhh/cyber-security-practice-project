@@ -1,0 +1,15 @@
+version: '3'
+services:
+  backend:
+    build: ./backend
+    ports:
+      - "5000:5000"
+    environment:
+      - MONGO_URI=mongodb+srv://krlspam12345:MSgkgjpRSpOmO2y6@cluster0.29pmz.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0
+
+  frontend:
+    build: ./frontend
+    ports:
+      - "80:80"
+    depends_on:
+      - backend
